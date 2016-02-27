@@ -95,7 +95,7 @@ a:not(:hover) {
 }
 
 .viz_list .viz-title {
-    color: slategrey;
+    color: #000;
     font-weight: 300;
     display: inline-block;
     width: 400px;
