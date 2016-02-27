@@ -15,6 +15,7 @@ function render(viz_list) {
         .attr("class", "viz viz--thumbnail")
         //.attr("href", function(d) { return "//bnamita.github.io/" + d.name }) //blog links
         .attr("href", function(d) { return "//thedatajournal.blogspot.in/" + d.url }) //blog links
+        .attr("target", "_blank")
         .style("background-image", function(d) { return "url(css/images/" + d.name + ".png)"; });
 
 //        gist.append("div")
